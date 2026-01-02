@@ -75,3 +75,9 @@ type TrendingCardProps = {
   movie: TrendingMovie;
   index: number;
 };
+
+type TabIconProps = {
+  focused: boolean
+  icon: any
+  title: string
+}
