@@ -5,7 +5,7 @@ import { icons } from "@/constants/icons";
 const SearchBar = ({ placeholder, onPress, ...props }: searchBarProps) => {
   return (
     <View
-      className=" flex flex-row items-center bg-dark-200 rounded-full px-5 py-4"
+      className=" flex flex-row items-center bg-dark-200 rounded-full px-5 py-4 gap-2"
       {...props}
     >
       <Image
@@ -20,7 +20,7 @@ const SearchBar = ({ placeholder, onPress, ...props }: searchBarProps) => {
         value=""
         onChangeText={() => {}}
         placeholderTextColor={"#a8b5db"}
-        className="flex ml-2 text-white "
+        className="flex text-white "
       />
     </View>
   );
