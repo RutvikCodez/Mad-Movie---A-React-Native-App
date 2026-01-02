@@ -6,3 +6,4 @@ export const TABS = [
   { name: "saved", title: "Saved", icon: icons.save },
   { name: "profile", title: "Profile", icon: icons.person },
 ];
+
