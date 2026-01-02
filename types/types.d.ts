@@ -81,3 +81,8 @@ type TabIconProps = {
   icon: any
   title: string
 }
+
+type searchBarProps = {
+  placeholder: string
+  onPress?: ()=>void
+}
